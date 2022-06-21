@@ -1,0 +1,195 @@
+<!-- HOME PAGE -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: linear-gradient(rgba(19, 170, 170, 0.5), rgba(20, 192, 57, 0.5)), url("donate.png");
+            font-family: cursive;
+            margin: 0;
+            padding: 10px;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+
+        .header {
+            padding: 20px;
+            text-align: center;
+            /* background: #1abc9c; */
+            color: rgb(1, 23, 19);
+        }
+
+      
+
+        .navbar {
+            overflow: hidden;
+            background-color: rgb(196, 117, 14);
+            opacity: 0.5;
+        }
+        .header h1 {
+            padding-top: 24px;
+            font-size: 38px;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: rgb(76, 59, 34);
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .navbar a.right {
+            float: right;
+        }
+
+        .navbar a:hover {
+            background-color: rgb(28, 28, 122);
+            color: black;
+        }
+
+        .dropdown {
+            float: right;
+            overflow: hidden;
+        }
+
+        .dropdown .dropbtn {
+            font-size: 18px;
+            border: none;
+            outline: none;
+            color: rgb(7, 1, 1);
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+
+        .navbar a:hover,
+        .dropdown:hover .dropbtn {
+            background-color: blue;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #396b39;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 14px 18px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: rgb(51, 16, 126);
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .row {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        }
+
+        .side {
+            -ms-flex: 35%;
+            flex: 35%;
+           
+            padding: 4px;
+            color: #c2fff9
+        }
+
+        .main {
+            -ms-flex: 75%;
+            flex: 75%;
+           
+            padding: 22px;
+            color: #ddd;
+        }
+
+        button {
+            font-size: 22px;
+            padding: 16px 42px;
+            border-radius: 8px;
+            background-color: #C2FFF9;
+            font-family: serif;
+        }
+
+        .footer {
+            padding: 3px;
+            text-align: center;
+            background: rgb(66, 40, 116);
+            margin-top: 12%;
+        }
+
+   
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Payment Gateway Integration | Our Website</h1>
+        <h1>LET'S CREATE A BETTER WORLD
+            for children in need</h1>
+    </div>
+    <div class="navbar">
+        <a href="about.html" class="right"><strong>ABOUT US</strong></a>
+        <a href="payment.html" class="right"><strong>DONATE</strong></a>
+
+    </div>
+    <div class="row">
+        <div class="side">
+            <h2 style="font-style:inherit; color: rgb(66, 48, 88);">Online Donation</h2>
+            <p style="font-family:New Century Schoolbook, TeX Gyre Schola, serif " , sans-serif; ; font-size: 400px;>
+                <strong>
+                    😇 Spark Foundation wishes health & safety for you & your dear ones. 😇 </strong></p>
+            <br>
+            <br>
+            <p><strong>Note :</strong></p>
+            <p style="font-size:20px">--Children are educated</p>
+            <p style="font-size:20px">--Children are healthy and well-nourished</p>
+            <p style="font-size:20px">--Children are made aware of their basic rights</p>
+            <p style="font-size:20px">--Children participate in their own development</p>
+            <p style="font-size:20px">--Children are valued, cared for and feel loved in the community</p>
+            <p style="font-size:20px">-- If you are an account holder of Indian banks and have debit/credit cards issued
+                by Indian banks then please select Indian Donors as your donation mode.</p>
+            <p style="font-size:20px">-- If you are an account holder of International banks and have debit/credit cards
+                issued by International banks such as Diner's Card,<br> Master Card, Amex or Visa then please select NRI
+                / FOREIGN DONORS as your donation mode.</p>
+            </p> 
+        </div>
+    </div>
+
+    <div>
+        <center><button type="button"><a href="payment.html">DONATE</a></button></center>
+    </div>
+
+    <div class="footer">
+        <h2>The Spark Foundation Project</h2>
+        <p style="font-size: medium;">TASK 3</p>
+        <p style="font-size: medium;">BY</p>
+        <p style="font-size: medium;">Abhishek Anand</p>
+    </div>
+</body>
+
+</html>

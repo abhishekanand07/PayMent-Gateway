@@ -1,0 +1,148 @@
+body {
+    font-family: cursive;
+    margin: 0;
+    
+    background-color: rgb(12, 171, 224);
+    color :#C2FFF9;
+    
+}
+
+.container {
+    position: relative;
+    text-align: center;
+   
+    color: rgb(1, 1, 1);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+
+  }
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.header {
+    padding: 20px;
+    text-align: center;
+    
+    color: rgb(5, 27, 77);
+  }
+.navbar {
+    overflow: hidden;
+    
+    background-color: blue;
+    
+    color: rgb(28, 28, 122);;
+    
+    opacity: 0.6;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    
+  }
+
+  .navbar a {
+    float: left;
+    display: block;
+    
+    color: rgb(240, 22, 6);;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+  }
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: darkcyan;
+
+  }
+  .navbar a.right {
+    float: right;
+  } 
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px 2px #e9ecef
+}
+
+.heading {
+    font-size: 24px;
+    font-weight: 00
+}
+
+.text {
+    font-size: 18px;
+    font-weight: 550;
+    color: #b1b6bd
+}
+
+.pricing {
+    border: 2px solid #304FFE;
+    background-color: #f2f5ff
+}
+
+.business {
+    font-size: 22px;
+    font-weight: 500
+}
+
+.plan {
+    color: #aba4a4
+}
+
+.dollar {
+    font-size: 16px;
+    color: #6b6b6f
+}
+
+.amount {
+    font-size: 50px;
+    font-weight: 500
+}
+
+.year {
+    font-size: 20px;
+    color: #6b6b6f;
+    margin-top: 20px
+}
+
+.detail {
+    font-size: 22px;
+    font-weight: 500
+}
+
+.cvv {
+    height: 46px;
+    width: 74px;
+    border: 3px solid #eee
+}
+
+.cvv:focus {
+    box-shadow: none;
+    border: 3px solid #304FFE
+}
+
+.email-text {
+    height: 60px;
+    border: 3px solid #eee
+}
+
+.email-text:focus {
+    box-shadow: none;
+    border: 3px solid #304FFE
+}
+
+.payment-button {
+    height: 70px;
+    font-size: 20px
+}
+
+
+.footer {
+    padding: 8px;
+    text-align: center;
+    background: rgb(47, 14, 196);
+    /* background: #F9D5A7; */
+    margin-top: 15%;
+  }
